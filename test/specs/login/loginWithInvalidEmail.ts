@@ -1,6 +1,6 @@
 import mainNavigationMenu from "../../pageobjects/mainNavigationMenu.component.ts"
 import loginPage from "../../pageobjects/login.page.ts"
-import {faker} from "@faker-js/faker";
+import {faker} from "@faker-js/faker"
 
 
 describe('Login Functionality', () => {

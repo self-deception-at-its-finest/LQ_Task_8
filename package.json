@@ -15,7 +15,9 @@
     "typescript": "^5.9.3"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.js"
+    "wdio:run-google_pixel": "wdio run configs/google_pixel_6.conf.js",
+    "wdio:run-samsung_galaxy": "wdio run configs/samsung_galaxy_22.conf.js",
+    "wdio:run-all": "concurrently \"npm run wdio:run-google_pixel\" \"npm run wdio:run-samsung_galaxy\""
   },
   "dependencies": {
     "@faker-js/faker": "^10.1.0"
