@@ -22,7 +22,7 @@ export const config = {
 
     capabilities: [{
         "platformName": "Android",
-        "appium:platformVersion": "14.0",
+        "appium:platformVersion": "12.0",
         "appium:deviceName": "Samsung Galaxy S22",
         "appium:automationName": "UiAutomator2",
         "appium:app": process.env.BS_APP_ID,
