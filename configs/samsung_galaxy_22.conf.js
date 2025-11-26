@@ -12,7 +12,7 @@ export const config = {
 
     services: ['appium','browserstack'],
     specs: [
-        './test/specs/**/*.ts'
+        '../test/specs/**/*.ts'
     ],
 
     exclude: [
