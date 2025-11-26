@@ -9,17 +9,13 @@ export const config = {
     hostname: 'hub.browserstack.com',
     port: 443,
     path: '/wd/hub',
-
     services: ['appium','browserstack'],
     specs: [
         '../test/specs/**/*.ts'
     ],
-
     exclude: [
     ],
-
     maxInstances: 1,
-
     capabilities: [{
         "platformName": "Android",
         "appium:platformVersion": "12.0",
@@ -33,14 +29,10 @@ export const config = {
     logLevel: 'error',
     bail: 0,
     waitforTimeout: 10000,
-
     connectionRetryTimeout: 120000,
-
     connectionRetryCount: 3,
-
     framework: 'mocha',
     reporters: ['spec'],
-
     mochaOpts: {
         ui: 'bdd',
         timeout: 60000

@@ -6,7 +6,5 @@ class LoginPage  {
     get successfulLoginMessage() { return $('android=new UiSelector().text("You are logged in!")') }
     get invalidEmailMessage() { return $('android=new UiSelector().text("Please enter a valid email address")') }
     get invalidPasswordMessage() { return $('android=new UiSelector().text("Please enter at least 8 characters")') }
-
-
 }
 export default new LoginPage()

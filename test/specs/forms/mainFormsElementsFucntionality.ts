@@ -20,7 +20,5 @@ describe('Form', () => {
         await formsPage.buttonActive.click()
         await expect(formsPage.buttonActiveAlertTitle).toBeDisplayed()
         await expect(formsPage.buttonActiveAlertTitle).toHaveText("This button is")
-
-
     })
 })

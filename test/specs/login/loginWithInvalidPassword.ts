@@ -22,6 +22,5 @@ describe('Login Functionality', () => {
 
         await expect(loginPage.invalidPasswordMessage).toBeDisplayed()
         await expect(loginPage.invalidPasswordMessage).toHaveText("Please enter at least 8 characters")
-
     })
 })

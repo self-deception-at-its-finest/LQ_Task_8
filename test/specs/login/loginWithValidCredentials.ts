@@ -20,6 +20,5 @@ describe('Login Functionality', () => {
 
         await expect(loginPage.successfulLoginMessage).toBeDisplayed()
         await expect(loginPage.successfulLoginMessage).toHaveText("You are logged in!")
-
     })
 })
